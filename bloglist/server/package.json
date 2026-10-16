@@ -1,0 +1,30 @@
+{
+  "name": "bloglist",
+  "version": "0.0.1",
+  "description": "Full Stack Open part4 bloglist backend (Express + Mongoose + tests)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node --watch index.js",
+    "test": "cross-env NODE_ENV=test node --test --test-concurrency=1",
+    "start:test": "cross-env NODE_ENV=test node --watch index.js",
+    "lint": "eslint ."
+  },
+  "author": "aslamalkarywk7",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.22.0",
+    "globals": "^15.14.0",
+    "supertest": "^7.0.0"
+  }
+}
